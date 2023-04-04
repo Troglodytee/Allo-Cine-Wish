@@ -1,10 +1,11 @@
 <?php
-    define('DOCUMENT_ROOT', $_SERVER['DOCUMENT_ROOT'].'/allo-cine-wish');
-    define('ROOT_PATH', 'http://localhost/allo-cine-wish');
+    define('DOCUMENT_ROOT', $_SERVER['DOCUMENT_ROOT']);
+    define('ROOT_PATH', 'https://allo-cine-wish.thomas-baricault.fr');
 
     define('API_PATH', 'https://api.themoviedb.org/3/');
     define('API_KEY', '98784ac75a5ac8233f488e9d8f15b662');
     define('API_LANGUAGE', 'fr-FR');
+    define('API_REGION', 'fr-FR');
     define('API_ORIGINAL_IMAGES_PATH', 'https://image.tmdb.org/t/p/original');
     define('API_SMALL_IMAGES_PATH', 'https://image.tmdb.org/t/p/w500');
 

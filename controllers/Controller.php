@@ -71,6 +71,7 @@
                     'query' => [
                         'api_key'  => API_KEY,
                         'language' => API_LANGUAGE,
+                        'region'   => API_REGION,
                         'page'     => $page,
                     ],
                 ],
@@ -95,6 +96,7 @@
                         'query' => [
                             'api_key'  => API_KEY,
                             'language' => API_LANGUAGE,
+                            'region'   => API_REGION,
                             'page'     => $page,
                             'query'    => $_GET['research'],
                         ],
@@ -121,6 +123,7 @@
                         'query' => [
                             'api_key'  => API_KEY,
                             'language' => API_LANGUAGE,
+                            'region'   => API_REGION,
                         ],
                     ],
                 );
